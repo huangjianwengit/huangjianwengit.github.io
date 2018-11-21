@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Swizzling[swift],">
+  <meta name="keywords" content="Swizzling,">
 
 
 
@@ -88,18 +88,18 @@
 
 
 
-<meta name="description" content="引言​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。 Swift中被废弃的+load（）和+initialize（）我们知道OC中有两个方法+load（）和+initialize（）。 +load(): app启动的时候会加载所有的类,此时就会调用每个类的load方法.+initialize():">
-<meta name="keywords" content="Swizzling[swift]">
+<meta name="description" content="前言​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。 Swift中被废弃的+load（）和+initialize（）我们知道OC中有两个方法+load（）和+initialize（）。 +load(): app启动的时候会加载所有的类,此时就会调用每个类的load方法.+initialize():">
+<meta name="keywords" content="Swizzling">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Method Swizzling[swift]">
 <meta property="og:url" content="http://yoursite.com/2018/11/20/Swizzling[Swift]/index.html">
 <meta property="og:site_name" content="Jivan&#39;s Blog">
-<meta property="og:description" content="引言​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。 Swift中被废弃的+load（）和+initialize（）我们知道OC中有两个方法+load（）和+initialize（）。 +load(): app启动的时候会加载所有的类,此时就会调用每个类的load方法.+initialize():">
+<meta property="og:description" content="前言​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。 Swift中被废弃的+load（）和+initialize（）我们知道OC中有两个方法+load（）和+initialize（）。 +load(): app启动的时候会加载所有的类,此时就会调用每个类的load方法.+initialize():">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-20T12:16:27.580Z">
+<meta property="og:updated_time" content="2018-11-21T07:52:41.686Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Method Swizzling[swift]">
-<meta name="twitter:description" content="引言​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。 Swift中被废弃的+load（）和+initialize（）我们知道OC中有两个方法+load（）和+initialize（）。 +load(): app启动的时候会加载所有的类,此时就会调用每个类的load方法.+initialize():">
+<meta name="twitter:description" content="前言​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。 Swift中被废弃的+load（）和+initialize（）我们知道OC中有两个方法+load（）和+initialize（）。 +load(): app启动的时候会加载所有的类,此时就会调用每个类的load方法.+initialize():">
 
 
 
@@ -351,7 +351,7 @@
       
 
       
-        <h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。</p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​    在日常开发中，程序员（媛）要面对各种各样的需求，在某些特殊情况下Apple提供的API无法满足我们的需求，这时runtime就派上了用场。</p>
 <h2 id="Swift中被废弃的-load（）和-initialize（）"><a href="#Swift中被废弃的-load（）和-initialize（）" class="headerlink" title="Swift中被废弃的+load（）和+initialize（）"></a>Swift中被废弃的+load（）和+initialize（）</h2><p>我们知道OC中有两个方法<strong><em>+load（）</em></strong>和<strong><em>+initialize（）</em></strong>。</p>
 <p><code>+load()</code>: app启动的时候会加载所有的类,此时就会调用每个类的load方法.<br><code>+initialize()</code>: 第一次初始化这个类的时候会被调用.</p>
 <p>然而在目前的swift版本中这两个方法都不可用了,那现在我们要在这个阶段搞事情该怎么做? 例如<code>method swizzling</code>这个强大的神器，作为为坚强的人类——程序员怎么可能就这样屈服呢。</p>
@@ -386,7 +386,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Swizzling-swift/" rel="tag"># Swizzling[swift]</a>
+            <a href="/tags/Swizzling/" rel="tag"># Swizzling</a>
           
         </div>
       
@@ -395,6 +395,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/21/Swizzling-Objective-C/" rel="prev" title="Swizzling[Objective-C]">
+                Swizzling[Objective-C] <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -470,7 +486,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -481,7 +497,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -492,7 +508,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -548,7 +564,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#引言"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Swift中被废弃的-load（）和-initialize（）"><span class="nav-number">1.1.</span> <span class="nav-text">Swift中被废弃的+load（）和+initialize（）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实际应用"><span class="nav-number">1.2.</span> <span class="nav-text">实际应用</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Swift中被废弃的-load（）和-initialize（）"><span class="nav-number">1.1.</span> <span class="nav-text">Swift中被废弃的+load（）和+initialize（）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实际应用"><span class="nav-number">1.2.</span> <span class="nav-text">实际应用</span></a></li></ol></li></ol></div>
             
 
           </div>
