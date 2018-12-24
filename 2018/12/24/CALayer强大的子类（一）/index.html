@@ -88,23 +88,23 @@
 
 
 
-<meta name="description" content="CALayer​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：  ## CALayer的子类 ​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIV">
+<meta name="description" content="CALayer​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：  ​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIView及其子类的关系图：">
 <meta name="keywords" content="CALayer">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CALayer强大的子类（一）">
 <meta property="og:url" content="http://yoursite.com/2018/12/24/CALayer强大的子类（一）/index.html">
 <meta property="og:site_name" content="Jivan&#39;s Blog">
-<meta property="og:description" content="CALayer​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：  ## CALayer的子类 ​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIV">
+<meta property="og:description" content="CALayer​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：  ​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIView及其子类的关系图：">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://thyrsi.com/t6/640/1545640896x2890203049.png">
 <meta property="og:image" content="http://thyrsi.com/t6/640/1545642579x2890202498.png">
 <meta property="og:image" content="http://thyrsi.com/t6/640/1545643670x2890202707.gif">
 <meta property="og:image" content="http://thyrsi.com/t6/640/1545645709x2890203049.gif">
 <meta property="og:image" content="http://thyrsi.com/t6/640/1545647432x2890202977.gif">
-<meta property="og:updated_time" content="2018-12-24T10:31:12.439Z">
+<meta property="og:updated_time" content="2018-12-24T10:35:02.700Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CALayer强大的子类（一）">
-<meta name="twitter:description" content="CALayer​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：  ## CALayer的子类 ​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIV">
+<meta name="twitter:description" content="CALayer​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：  ​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIView及其子类的关系图：">
 <meta name="twitter:image" content="http://thyrsi.com/t6/640/1545640896x2890203049.png">
 
 
@@ -391,10 +391,9 @@
       
         <h2 id="CALayer"><a href="#CALayer" class="headerlink" title="CALayer"></a>CALayer</h2><p>​    对于大多数开发者老说，CALayer是很熟悉的一个类，但是对于它的属性和应用可能一知半解，简单说明了CALayer的几个重要属性的作用以及是否支持隐式动画。下表是其属性：</p>
 <p><img src="http://thyrsi.com/t6/640/1545640896x2890203049.png" alt=""></p>
-<pre><code>## CALayer的子类
-</code></pre><p>​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIView及其子类的关系图：</p>
+<p>​    但是今天主要是介绍CALayer的子类，CALayer的子类很多，功能也大不相同，各司其职，使用好其子类对于我们日常开发有很大的的帮助。下图是CALayer与UIView及其子类的关系图：</p>
 <p><img src="http://thyrsi.com/t6/640/1545642579x2890202498.png" alt=""></p>
-<ul>
+<h3 id="CAShapeLayer"><a href="#CAShapeLayer" class="headerlink" title="CAShapeLayer"></a>CAShapeLayer</h3><ul>
 <li><p>path  和贝塞尔曲线紧密连接一个入口</p>
 </li>
 <li><p>fillColor 和 fillRule fillColor即layer的path的填充颜色，fillRule属性用于指定使用哪一种算法去判断画布上的某区域是否属于该图形“内部” （内部区域将被填充）。</p>
@@ -757,7 +756,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CALayer"><span class="nav-number">1.</span> <span class="nav-text">CALayer</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CAGradientLayer"><span class="nav-number">1.1.</span> <span class="nav-text">CAGradientLayer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CAEmitterLayer"><span class="nav-number">1.2.</span> <span class="nav-text">CAEmitterLayer</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#CAEmitterCell-属性介绍"><span class="nav-number">1.2.1.</span> <span class="nav-text">CAEmitterCell 属性介绍</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CALayer"><span class="nav-number">1.</span> <span class="nav-text">CALayer</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CAShapeLayer"><span class="nav-number">1.1.</span> <span class="nav-text">CAShapeLayer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CAGradientLayer"><span class="nav-number">1.2.</span> <span class="nav-text">CAGradientLayer</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#CAEmitterLayer"><span class="nav-number">1.3.</span> <span class="nav-text">CAEmitterLayer</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#CAEmitterCell-属性介绍"><span class="nav-number">1.3.1.</span> <span class="nav-text">CAEmitterCell 属性介绍</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
